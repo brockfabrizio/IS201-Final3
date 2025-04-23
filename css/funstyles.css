@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .place-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+  }
+  
+  .place-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0,0,0,0.2);
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+  }
+  
+  body {
+    color: #2c3e50; /* neutral dark blue-gray */
+  }
+
+  .st-george { color: #d35400; }
+  .boston { color: #2c3e50; }
+  .south-carolina { color: #2980b9; }
+  .georgia { color: #e67e22; }
+  .florida { color: #16a085; }
+  .new-york { color: #34495e; }
